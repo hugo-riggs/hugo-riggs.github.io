@@ -1,0 +1,53 @@
+li {
+	color: rgb(200,200,200);
+}
+
+nav {
+	background-color: rgb(190,190,220);
+}
+
+
+nav ul {
+	list-style-type: none;
+}
+
+
+nav ul li {
+//	display: inline;
+}
+
+
+.container {
+	background-color: rgb(200,200,230);
+	margin: 1em;
+	padding: 1em;
+}
+
+
+
+
+.undecoratedText {
+	text-decoration: none;
+}
+
+
+// Color Classes
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.black {
+	color: black;
+}
+
+.blackBackground {
+	background-color: black;
+}
