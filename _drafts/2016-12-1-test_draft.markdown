@@ -34,7 +34,7 @@ Number of times to recursively search gathered links (max index for the list of 
 on that first link's HTML.
 
 *Third argument:*
-Pass a buffer object for the crawl fill as a side-effect .
+Pass a buffer object for the crawl to fill as a side-effect .
 
 *Fourth argument:*
 A sequence of types to look for.
@@ -70,8 +70,8 @@ Most of the links were removed from the output for the sake of brevity, but the 
 Use the dead link checker to find 404 links on your website.
 
 {% highlight scala %}
-val buffer = Spider.Buffer("http://www.petstopdoc.com")                                           
-Spider.Crawl("http://www.petstopdoc.com/buildBucket/", 20, buffer, Seq("href", "src") : _*)           
+val buffer = Spider.Buffer("http://www.myWebsite.com")                                           
+Spider.Crawl("http://www.myWebsite.com/", 20, buffer, Seq("href", "src") : _*)           
 println( buffer.listDeadLinks.mkString("\ndead links gathered: " + buffer.sizeDeadLinks + " [\n", "\n", "]\n"))
 println( buffer.listLinks.mkString("\nLinks gathered: " + buffer.sizeLinks + " [\n", "\n", "\n]")) 
 {% endhighlight %}

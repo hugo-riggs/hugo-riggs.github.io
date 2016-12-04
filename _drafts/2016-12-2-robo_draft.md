@@ -15,6 +15,4 @@ Gameplay clip shown below:
 [//]:<>{{site.url}}/assets/roboClip.gif  ONLINE
 [//]:<>![robo gameplay gif]({{site.url}}/assets/roboClip.gif)
 
-localhost:4000/assets/roboClip.gif  LOCAL
-
-![robo gameplay gif](localhost:4000/assets/roboClip.gif)
+![robo gameplay gif](http://localhost:4000/assets/roboClip.gif )
