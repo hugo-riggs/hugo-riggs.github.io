@@ -6,24 +6,38 @@ nav {
 	background-color: rgb(190,190,220);
 }
 
-
-nav ul {
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222;
 }
 
+/* Float the list items side by side */
+ul.topnav li {float: left;}
 
-nav ul li {
-//	display: inline;
+
+/* Style the links inside the list items */
+ul.topnav li a {
+	display: inline-block;
+	color: #e2e2e2;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	transition: 0.1s;
+	font-size: 15px;
 }
 
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
 
 .container {
 	background-color: rgb(200,200,230);
 	margin: 1em;
 	padding: 1em;
 }
-
-
 
 
 .undecoratedText {

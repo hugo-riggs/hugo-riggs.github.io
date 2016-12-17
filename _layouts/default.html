@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+	<!-- Include jQuery -->
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+
+	<!-- Prevent zoom on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
@@ -7,10 +14,10 @@
 		</head>
 		<body class="blackBackground">
 			<nav>
-	    		<ul>
+			<ul class="topnav" id="myTopnav">
 	        		<li><a href="/">Home</a></li>
 	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/resume" target="_blank">Resume</a></li>
+	        		<li><a href="/resume">Resume</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
