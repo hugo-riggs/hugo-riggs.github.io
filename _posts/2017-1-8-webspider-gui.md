@@ -32,7 +32,7 @@ added to three files.
 ![Detected missing link]({{site.url}}/assets/webspider-gui-images/missingLink.png )
 
 Use the java pattern for regular expression creation, this can help you find specific links.
-Note: (?i) mean case insensitivity.
+Note: (?i) mean case insensitivity. Add more iterations for a better chance to get content.
 ![Regex and Root]({{site.url}}/assets/webspider-gui-images/regexAndRoot.png )
 
 Also download content with the download checkbox, ensure media links is also checked that
@@ -41,4 +41,5 @@ javascript checkbox is an option because some websites dynamically link to url's
 the javascript of the webpage, so you can scrape that data as well with the checkbox selected.
 Find titles is used to gather titles of webpages, this can give you more information about
 what an ambigious url might contain Note: it will only return as many titles as iterations set.
-![Started Imgur]({{site.url}}/assets/webspider-gui-images/linksBelowMediaLinks.png )
+**Make sure to end your download path with a `/` in unix systems and `\` in windows systems.**
+![Started Imgur]({{site.url}}/assets/webspider-gui-images/downloadingMedia.png )
