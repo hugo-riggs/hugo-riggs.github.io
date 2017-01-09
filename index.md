@@ -3,9 +3,8 @@ layout: default
 title:  "Home"
 ---
 
-### Hello, from Hugo 
+### Hello,
 
-This is my website, I plan to post more content from projects involving code, photography, and entertainment.
-Feel free to poke around at the various postings, and try robo, a difficult game of survival against many foe and obstacle.
+On this website, I plan to post content from computer porgrams, photography, and entertainment.
 
 powerd by *Jekyll*
