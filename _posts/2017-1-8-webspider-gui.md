@@ -21,25 +21,24 @@ available through [dropbox](https://www.dropbox.com/s/ogy8sj8649ct33z/guispider-
 I tried the program on this website as I work with jekyll locally:
 
 An initial scan of the webspite, I changed no default options, except for the URL.
-![Initial Scan](http://localhost:4000/assets/webspider-gui-images/initialScan.png )
-
+![Initial Scan]({{site.url}}/assets/webspider-gui-images/initialScan.png )
 
 Adding a missing link to the website, now this link shows up under the same crawl.
-![After Adding ML](http://localhost:4000/assets/webspider-gui-images/afterAddingML.png )
+![After Adding ML]({{site.url}}/assets/webspider-gui-images/afterAddingML.png )
 
 Now click the dead links check box and scan again, notice the missing link is found in three files.
 Note: jekyll is automatically adding the html code with the `MISSINGLINK` to each post, so it is
 added to three files.
-![Detected missing link](http://localhost:4000/assets/webspider-gui-images/missingLink.png )
+![Detected missing link]({{site.url}}/assets/webspider-gui-images/missingLink.png )
 
 Use the java pattern for regular expression creation, this can help you find specific links.
 Note: (?i) mean case insensitivity.
-![Regex and Root](http://localhost:4000/assets/webspider-gui-images/regexAndRoot.png )
+![Regex and Root]({{site.url}}/assets/webspider-gui-images/regexAndRoot.png )
 
 Also download content with the download checkbox, ensure media links is also checked that
 makes the crawler find the actual links to image data i.e. (jpg, gif, png, mp4, etc). The
 javascript checkbox is an option because some websites dynamically link to url's from inside
 the javascript of the webpage, so you can scrape that data as well with the checkbox selected.
-Find titles is used to gather titles of webpages, this can give you more information about 
+Find titles is used to gather titles of webpages, this can give you more information about
 what an ambigious url might contain Note: it will only return as many titles as iterations set.
-![Started Imgur](http://localhost:4000/assets/webspider-gui-images/linksBelowMediaLinks.png )
+![Started Imgur]({{site.url}}/assets/webspider-gui-images/linksBelowMediaLinks.png )

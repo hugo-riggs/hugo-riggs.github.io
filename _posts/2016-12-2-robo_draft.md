@@ -12,8 +12,5 @@ alot further along then when it started.
 
 Gameplay clip shown below:
 
-[//]:<>{{site.url}}/assets/roboClip.gif  ONLINE
-[//]:<>![robo gameplay gif]({{site.url}}/assets/roboClip.gif)
-
-![robo gameplay gif](http://localhost:4000/assets/roboClip.gif )
+![robo gameplay gif]({{site.url}}/assets/roboClip.gif)
 <iframe width="760" height="515" src="https://www.youtube.com/embed/VXrA_-CNS_Y" frameborder="0" allowfullscreen></iframe>
