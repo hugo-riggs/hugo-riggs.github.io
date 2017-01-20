@@ -3,6 +3,12 @@
 	<!-- Include jQuery -->
 	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<!-- Prevent zoom on mobile devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
@@ -14,24 +20,34 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body class="blackBackground">
-			<nav>
-			<ul class="topnav" id="myTopnav">
-	        		<li><a href="/">Home</a></li>
-	        		<li><a href="/about">About</a></li>
-	        		<li><a href="/resume">Resume</a></li>
-	        		<li><a href="/posts">Posts</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-				<li>Contact Email: hsplatas <img src="{{site.url}}/assets/domain.png"/></li>
-	        		<li><a href="https://github.com/Hugo-Riggs">github.com/Hugo-Riggs</a></li>
+			<div class="row">
+				<nav>
+				<ul class="topnav  col-md-8">
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/resume">Resume</a></li>
+					<li><a href="/posts">Posts</a></li>
 				</ul>
-			</footer>
+				<ul class="topnav col-md-4">
+					<li><a href="https://nl.linkedin.com/in/hugo-riggs-a5181281" target="_blank">LinkedIn</a></li>
+				</ul>
+				</nav>
+			</div>
+
+			<div class="row">
+				<div class="container col-md-8 col-md-offset-2">
+				{{ content }}
+				</div><!-- /.container -->
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-4">
+				<footer>
+				<ul class="list-unstyled">
+					<li>Contact Email: hsplatas <img src="{{site.url}}/assets/domain.png"/></li>
+					<li><a href="https://github.com/Hugo-Riggs" target="_blank">github.com/Hugo-Riggs</a></li>
+				</ul>
+				</footer>
+				</div>
+			</div>
 		</body>
 	</html>

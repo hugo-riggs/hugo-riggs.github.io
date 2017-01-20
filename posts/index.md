@@ -3,9 +3,8 @@ layout: default
 title:  "HS Blog"
 ---
 
-### HS Blog list of contents 
+### Contents:
 
-posts:
 <ul>
 {% for post in site.posts %}
 	<li>
