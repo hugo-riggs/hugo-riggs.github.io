@@ -1,6 +1,6 @@
 ---
 layout: default 
-title:  "HS Blog"
+title:  "Posts"
 ---
 
 ### Contents:

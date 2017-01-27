@@ -1,1 +1,1 @@
-visit the site at Hugo-Riggs.github.io
+visit the site at HugoRiggs.github.io
