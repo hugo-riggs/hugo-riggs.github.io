@@ -1,15 +1,10 @@
 ---
 layout: post
-title:  "Webspider scripting usage"
+title:  "Scala web spider with Jsoup"
 date:   2016-12-1 18:00:00 -0400
 ---
 
-### Scala web spider with Jsoup
-
-Hugo Riggs
-webspider, 2016
-
-Using Webspider a Scala program
+### Scripting 
 
 The first step to accessing the functionality of *webspider* is by importing the necessary concurrency libraries, and then Crawler object and Class. Now you can define a Crawler value for later use. This can be done through a REPL session as shown below.
 
@@ -105,3 +100,6 @@ test("test rec script") {
 {% endhighlight %}
 
 The metaDataMap will hold crawled content that you request additionally to href or src, and in this case that data is the title from a HTML page. You can also try other tag’s such as (p, div, style), and hopefully the crawler returns adequate data.
+
+*Hugo Riggs
+webspider, 2016*
