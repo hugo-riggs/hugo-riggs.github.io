@@ -39,14 +39,14 @@ Crawler has a companion object which works as a constructor. The *run()* functio
 {% endhighlight %}
 
 
-Notice, it is possible to continue with tasks in the REPL, in this case we use the Crawler object’s data fields to check on the status of crawled resources. Each crawl is timed, and this is shown at the end. At this point, because the data fields were imported by our success case code we can begin using the gathered data.
+Notice, it is possible to continue with tasks in the REPL, in this case we use the Crawler object’s data fields to check on the status of crawled resources. Each crawl is timed, and this is shown at the end. At this point, we can import and begin using the gathered data.
 
 {% highlight scala %}
        scala> 
        Done! (buffer objects filled)
        The crawl took 58 seconds
 
-       scala> mediaSet foreach println
+       scala> redditCrawl.mediaSet foreach println
        https://a.thumbs.redditmedia.com/u-_aNnn_68FjNH2zqK3NVKSViwc6BhINZGReTH6_FD8.jpg
        https://b.thumbs.redditmedia.com/Md0EAiGsuUfQOyxhLEf_rIW6pNgwy1M7HhAjHZcev2E.jpg
        https://a.thumbs.redditmedia.com/Mixjq0aUujwDg3WXtNJ8LBI4cfLJ5yo_QueY85HONR8.jpg

@@ -4,11 +4,6 @@ title:  "Webspider GUI"
 date:   2016-12-1 18:00:00 -0400
 ---
 
-### Web spider with GUI 
-
-Hugo Riggs
-webspider, 2017
-
 Scala GUI webspider is effective at certian tasks. For example you could check for dead links on your
 website. Alternitively you could use the application to download particular media files. Regular expression patterns are used as filters. Use the [Java Pattern](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html). Application on [dropbox](https://www.dropbox.com/s/ogy8sj8649ct33z/guispider-1.5.zip?dl=0)
 
@@ -34,3 +29,6 @@ what an ambigious url might contain Note: it will only return as many titles as 
 
 Downloading cartoons example:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ToQnOWmVkQ" frameborder="0" allowfullscreen></iframe>
+
+*Hugo Riggs
+webspider, 2017*

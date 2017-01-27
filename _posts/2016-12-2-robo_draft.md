@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "robo"
+title: "robo game"
 date:  2016-12-2 23:28:00 -0400
 ---
-
-### robo game
 
 The game is a 2.5-D combat, platformer which is still being designed.
 Gameplay is not polished, levels are not built, but it is still 
