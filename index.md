@@ -4,8 +4,7 @@ title:  "Home"
 ---
 
 ### Github content
-#### Released Executables
-
+#### Executables
 
 <a href="https://github.com/HugoRiggs/SSOKP/releases" target="_blank">
 <i>Screen Capture on Key Press</i> (SCOKP)</a>
@@ -24,6 +23,12 @@ title:  "Home"
 #### Projects
 
 ### Bitbucket content
-gui webspider
+<i>gui webspider</i>
+<i>robo</i>
+
+<center>
+<img src="assets/downyWoodpeckerCropped.png">
+<p>Downy woodpecker</p>
+</center>
 
 powerd by *Jekyll*

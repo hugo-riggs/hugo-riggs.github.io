@@ -14,7 +14,7 @@ nav {
 ul.topnav {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 0, 5, 0, 5;
 	overflow: hidden;
 	background-color: #222;
 }
@@ -49,6 +49,8 @@ ul.topnav li a:hover {background-color: #555;}
 
 
 // Color Classes
+
+
 .green {
 	color: green;
 }
@@ -63,6 +65,14 @@ ul.topnav li a:hover {background-color: #555;}
 
 .black {
 	color: black;
+}
+
+.darkGreyBackground {
+	background-color: #2B2B2B;
+}
+
+.lightGreyBackground {
+	background-color: #ABABAB;
 }
 
 .blackBackground {
