@@ -6,13 +6,15 @@ title:  "Home"
 ### Github content
 #### Executables
 
+{% comment %}
 <a href="https://github.com/HugoRiggs/SSOKP/releases" target="_blank">
 <i>Screen Capture on Key Press</i> (SCOKP)</a>
-> Used to create timelapses of computer use, especially coding.
+> Used to create timelapses of computer use, especially coding. 
+{% endcomment %}
 
-<a href="https://github.com/HugoRiggs/ImgurSpider-Java-Jsoup/releases" target="_blank">
+<a href="https://github.com/HugoRiggs/ImgurSpider-Java-Jsoup" target="_blank">
 <i>Imgur-Spider-Java-Jsoup</i></a>
-> Downloads *Imgur* directories, for example this link ( http://imgur.com/r/evilbuildings ).
+> Downloads *Imgur* content, for example this link ( http://imgur.com/r/evilbuildings ).
 
 #### Modules
 
@@ -23,7 +25,7 @@ title:  "Home"
 #### Projects
 
 ### Bitbucket content
-<i>gui webspider</i>
+<i>GUI webspider,</i>
 <i>robo</i>
 
 <center>
