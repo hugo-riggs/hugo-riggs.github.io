@@ -3,6 +3,7 @@ layout: default
 title:  "Home"
 ---
 
+<!--
 ### Github content
 #### Executables
 
@@ -25,10 +26,14 @@ title:  "Home"
 ### Bitbucket content
 <i>gui webspider</i>
 <i>robo</i>
+-->
+<br>
+**Hi, my name is Hugo and I enjoy nature photography, day hikes, Java and Scala programming, and writing.**
 
-<center>
-<img src="assets/downyWoodpeckerCropped.png">
-<p>Downy woodpecker</p>
-</center>
+Currently studying computer and electrical engineering at university graduate level.
+
+:-------------------------:|:-------------------------:
+![Downy woodpecker](assets/downyWoodpeckerCropped.png){:class="img-responsive"} Downy Woodpecker |  ![Alligators](assets/aligatorHead.jpg){:class="img-responsive"} Alligators
+![Blue Heron](assets/LittleBlueHeron.jpg){:class="img-responsive"} Blue Heron  |  ![Male Cardinal](assets/maleCardinal.jpg){:class="img-responsive"} Male Cardinal
 
 powerd by *Jekyll*

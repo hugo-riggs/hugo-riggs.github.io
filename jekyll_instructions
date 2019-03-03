@@ -1,0 +1,19 @@
+
+# install all Ruby dependencies and modules
+
+sudo apt-get install ruby-full build-essential zlib1g-dev
+sudo apt-get install ruby-dev
+sudo apt install ruby-bundler
+sudo gem install jekyll bundler
+sudo gem update --system
+
+# update bundler,
+# set its version in the .gemspec file
+bundler update
+
+# test locally
+bundle exec jekyll serve
+# Develop
+# done.. okay build and publish
+# bundle exec jekyll build
+# git push
