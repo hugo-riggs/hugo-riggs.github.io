@@ -2,8 +2,18 @@ li {
 	color: rgb(200,200,200);
 }
 
+body {
+	margin-bottom:50px;
+}
+
 footer {
-	margin: 0 auto;
+	position: absolute;
+	height: 50px;
+	background-color: red;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
 }
 
 nav {
